@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(45deg, #dbcadb, #008080);
+}
+
+.wrapper {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 3 3;
+  margin: 0 auto;
+}
+
+h1 {
+  /* width: 33%; */
+  padding: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: 20%;
+  height: 40px;
+  padding: 16px;
+  padding-top: 10px;
+
+}
+
+#numbers, #secondset, #thirdset {
+  padding: 8px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
