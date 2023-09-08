@@ -31,9 +31,9 @@ function update (numbers) {
   nine.innerHTML = numbers[7]
 }
 
-rotater.addEventListener('click', ()=> {
- clockwise(numbers)
- update(numbers)
+rotater.addEventListener('click', () => {
+  clockwise(numbers)
+  update(numbers)
 })
 
 one.addEventListener('click', () => {
