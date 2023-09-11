@@ -24,11 +24,11 @@ function update (numbers) {
   one.innerHTML = numbers[0]
   two.innerHTML = numbers[1]
   three.innerHTML = numbers[2]
-  four.innerHTML = numbers[3]
-  six.innerHTML = numbers[4]
-  seven.innerHTML = numbers[5]
-  eight.innerHTML = numbers[6]
-  nine.innerHTML = numbers[7]
+  four.innerHTML = numbers[7]
+  six.innerHTML = numbers[3]
+  seven.innerHTML = numbers[6]
+  eight.innerHTML = numbers[5]
+  nine.innerHTML = numbers[4]
 }
 
 rotater.addEventListener('click', () => {
